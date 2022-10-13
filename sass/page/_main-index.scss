@@ -1,0 +1,34 @@
+.container_index {
+    display: flex;
+    height: 500px;
+}
+
+
+
+.photo_index{
+    background-color: aquamarine;
+    width: 30%;
+    height: 90%;
+
+}
+
+.principal_index{
+    padding: 20px;
+    width: calc(100% - 30%);
+}
+
+.principal_index span{
+    display: flex;
+    justify-content: center;
+
+}
+
+// .principal_index p{
+//     text-align: start;
+// }
+
+.logo_index{
+    height: 500px;
+    text-align: center;
+    background-color: bisque;
+}
