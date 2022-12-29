@@ -1,28 +1,15 @@
-.container_index {
-    display: flex;
-    height: 500px;
+.container_index{
+    margin: 80px;
 }
-
-.photo_index{
-    background-color: aquamarine;
-    width: 30%;
-    height: 90%;
-}
-
 .principal_index{
-    padding: 20px;
-    width: calc(100% - 30%);
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+    span{
+        display: block;
+        text-align: center;
+    }
 }
-
-.principal_index span{
-    display: flex;
-    justify-content: center;
-}
-
-// .principal_index p{
-//     text-align: start;
-// }
-
 .logo_index{
     height: 500px;
     text-align: center;

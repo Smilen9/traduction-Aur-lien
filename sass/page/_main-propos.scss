@@ -1,20 +1,16 @@
 .apropos{
     display: flex;
     justify-content: space-around;
+    line-height: 145%;
 }
 
-.parcours{
-    margin-bottom: 50px;
-}
 
-.reves{
-    margin-top: 50px;
-}
 
-p{
-    text-align: justify;
-}
 
 .texte-propos{
     width: 40%;
+    text-align: justify;
+    p{
+        margin: 40px 0;
+    }
 }

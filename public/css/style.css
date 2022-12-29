@@ -79,7 +79,7 @@ nav {
   background: #137C8B;
   left: 0;
   padding: 0;
-  margin-left: 65%;
+  margin-left: 77%;
   transition: all 0.4s cubic-bezier(0.34, 0.06, 0.5, 0.75);
   -webkit-transition: all 0.4s cubic-bezier(0.34, 0.06, 0.5, 0.75);
   transform: rotateX(-90deg);
@@ -124,24 +124,17 @@ nav {
 }
 
 .container_index {
-  display: flex;
-  height: 500px;
-}
-
-.photo_index {
-  background-color: aquamarine;
-  width: 30%;
-  height: 90%;
+  margin: 80px;
 }
 
 .principal_index {
-  padding: 20px;
-  width: 70%;
+  width: 40%;
+  margin: auto;
+  text-align: justify;
 }
-
 .principal_index span {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
 }
 
 .logo_index {
@@ -153,22 +146,15 @@ nav {
 .apropos {
   display: flex;
   justify-content: space-around;
-}
-
-.parcours {
-  margin-bottom: 50px;
-}
-
-.reves {
-  margin-top: 50px;
-}
-
-p {
-  text-align: justify;
+  line-height: 145%;
 }
 
 .texte-propos {
   width: 40%;
+  text-align: justify;
+}
+.texte-propos p {
+  margin: 40px 0;
 }
 
 .center {
