@@ -1,13 +1,16 @@
 .container_index{
-    width: 40%;
+    width: 20%;
     margin-left: auto;
     padding: 50px;
 }
 .principal_index{
     text-align: justify;
-    span{
+    .titre_bloc{
         display: block;
         text-align: center;
+    }
+    .italic{
+        font-style: italic;
     }
 }
 .logo_index{

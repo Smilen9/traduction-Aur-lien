@@ -124,7 +124,7 @@ nav {
 }
 
 .container_index {
-  width: 40%;
+  width: 20%;
   margin-left: auto;
   padding: 50px;
 }
@@ -132,9 +132,12 @@ nav {
 .principal_index {
   text-align: justify;
 }
-.principal_index span {
+.principal_index .titre_bloc {
   display: block;
   text-align: center;
+}
+.principal_index .italic {
+  font-style: italic;
 }
 
 .logo_index {
