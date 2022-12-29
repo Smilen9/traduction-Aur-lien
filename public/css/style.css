@@ -124,12 +124,12 @@ nav {
 }
 
 .container_index {
-  margin: 80px;
+  width: 40%;
+  margin-left: auto;
+  padding: 50px;
 }
 
 .principal_index {
-  width: 40%;
-  margin: auto;
   text-align: justify;
 }
 .principal_index span {
@@ -145,12 +145,13 @@ nav {
 
 .apropos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 100px;
   line-height: 145%;
 }
 
 .texte-propos {
-  width: 40%;
+  width: 35%;
   text-align: justify;
 }
 .texte-propos p {
