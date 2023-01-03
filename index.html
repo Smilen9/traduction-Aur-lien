@@ -9,16 +9,22 @@
     <!-- Import des icones du site Fontawesome -->
     <script src="https://kit.fontawesome.com/d6ce92eb19.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./public/css/style.css" />
-     <!-- Import police d'écriture via Google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https : //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100 &famille= Montserrat:wght@300;400;500;600 & swap" rel="stylesheet"/>
     <title>Aurélien VAUZELLE</title>
   </head>
 
   <body>
     <!-- BARRE DU MENU -->
     <header>
+
+      <div class="toggle">
+        <input type="checkbox" class="checkbox" id="dark-mode" />
+        <label for="dark-mode" class="label">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+
       <a href="index.html"><img src="./images/logo-aure.png" class="header-logo" alt="logo d'Aurélien VAUZELLE"></a>
       <nav>
         <ul class="menu">
@@ -43,7 +49,7 @@
         <div class="principal_index">
             <span class="titre_bloc">Bonjour et bienvenue &#x1F604;</span>
             <p>
-              Vous pouvez retrouver sur ce site (c’est le mien !) l’ensemble des projets audiovisuels sur lesquels j’ai eu la chance de travailler ces dernières années.</br>
+              Vous pouvez retrouver sur mon site l’ensemble des projets audiovisuels sur lesquels j’ai eu la chance de travailler ces dernières années.</br>
               Sur la page <span class="italic"> À propos de moi</span>, vous pouvez en apprendre un peu plus sur moi, mon parcours universitaire, mes centres d’intérêt et mes domaines de prédilection.</br>
               Vous pouvez me retrouver sur les différents réseaux sociaux ou me contacter directement par mail en cliquant sur les icônes correspondantes en bas de chaque page du site.</br></br>
                N’hésitez pas ! Au plaisir, et bonne visite.
@@ -69,5 +75,6 @@
       </div>
 
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>

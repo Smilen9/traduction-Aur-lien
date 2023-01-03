@@ -1,3 +1,66 @@
+.toggle {
+  position: absolute;
+  right: 28rem;
+  top: 2.3rem;
+}
+
+/*Pour faire disparaitre la checkbox, quel ne soit pas visible*/
+.checkbox {
+  display: none;
+}
+
+.label {
+  height: 26px;
+  width: 55px;
+  background: rgb(182, 182, 182);
+  padding: 5px 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transform: scale(1.2);
+  box-shadow: 2px 1px 1px #333;
+}
+
+.label .ball {
+  background: #137C8B;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  top: 1px;
+  left: 3px;
+  transform: translateX(0px);
+  transition: transform 0.5s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+/* code qui gere la longueur du deplacement de la "ball" sur l'axe horizontale */
+.checkbox:checked + .label .ball {
+  transform: translateX(23px);
+}
+
+/*couleur de l'icone nuitvgg*/
+.fa-moon {
+  color: #333;
+}
+
+/* DARK MODE -- ICI le code qui sera injecter au BODY sur le clic de la checkbox que l'on gere en JavaScript*/
+.dark {
+  background: rgb(42, 40, 40);
+  color: white;
+}
+
+.dark .label {
+  box-shadow: 2px 1px 1px white;
+  background: #888;
+}
+
+.dark .ball {
+  background: white;
+}
+
 * {
   box-sizing: border-box;
   text-decoration: none;
@@ -25,7 +88,7 @@ h2 {
 
 /* HEADER */
 header {
-  height: 100px;
+  height: 105px;
   background-color: #709CA7;
   display: flex;
   justify-content: flex-end;
@@ -217,7 +280,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .card-with-hover {
