@@ -70,6 +70,8 @@
   margin: 70px auto;
 }
 .menu-serie a {
+  color: white;
+  text-decoration: none;
   background-color: #B8CBD0;
   border-radius: 50%;
   padding: 4px 13px;
